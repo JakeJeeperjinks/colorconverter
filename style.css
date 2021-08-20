@@ -1,0 +1,32 @@
+.numInput {
+    display: block;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+button {
+    border-radius: 6px;
+}
+
+button:hover {
+    transition: .5s;
+    background-color: gray;
+    color: white;
+    box-shadow: 0px 3px 2px 1px rgb(156, 36, 36);
+}
+
+.colordisplay {
+    margin-top: 5px;
+    width: 177px;
+    height: 100px;
+}
+
+.elements {
+    margin: auto;
+    width: 190px;
+}
+
+body {
+    background-color: #2c302f;
+    color: white;
+}

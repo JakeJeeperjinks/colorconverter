@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Color Converter</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="elements">
+    <h1 class="headerMain">RGB to Hex</h1>
+    <form id="rgbColorInput">
+        <label for="rNum">R:</label>
+        <input type="number" name="rNum" class="numInput" required>
+
+        <label for="gNum">G:</label>
+        <input type="number" name="gNum" class="numInput" required>
+
+        <label for="bNum">B:</label>
+        <input type="number"name="bNum" class="numInput" required>
+
+        <button class="submit">Convert!</button>
+    </form>
+
+    <h2 class="headerMain">Hex:</h2>
+    <input type="text" readonly="readonly" class="outputText">
+
+    <div class="colordisplay">
+        
+    </div>
+</div>
+
+    <script src="app.js"></script>
+</body>
+</html>
